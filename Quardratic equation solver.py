@@ -1,0 +1,11 @@
+print ('hi user, we will get inputs to solve your quardratic equation')
+a = input('coefficient of x^2=')
+b = input('coeffcient of x =')
+c = input('constant=')
+a = int(a)
+b = int(b)
+c = int(c)
+d = (b**2)-4*a*c
+x = (-b + (d**0.5))/(2*a)
+y = (-b - (d**0.5))/(2*a)
+print ('the two roots are' ,x , 'and' ,y) 
