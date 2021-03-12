@@ -1,0 +1,5 @@
+Print('hello user, please give your input in fahrenheit to convert it to degree celcius')
+f = input('Thmperature in fahrenheit = ')
+f = int(f)
+c = (f-32)*(5/9)
+print('the temperature in celcius is equal to' , c)
